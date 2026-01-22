@@ -1,0 +1,20 @@
+# Swami Car Rentals - robots.txt
+# Last Updated: 2026-01-22
+
+User-agent: *
+Allow: /
+
+# Allow search engines to index all static assets
+Allow: /favicon.ico
+Allow: /favicon-*.png
+Allow: /apple-touch-icon.png
+Allow: /site.webmanifest
+Allow: /images/
+Allow: /_next/static/
+
+# Block Next.js internal paths that shouldn't be indexed
+Disallow: /_next/data/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://www.swamicarsrental.site/sitemap.xml
