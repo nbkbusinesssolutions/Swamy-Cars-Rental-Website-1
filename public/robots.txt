@@ -17,4 +17,4 @@ Disallow: /_next/data/
 Disallow: /api/
 
 # Sitemap location
-Sitemap: https://www.swamicarsrental.site/sitemap.xml
+Sitemap: https://swamicarsrental.site/sitemap.xml
